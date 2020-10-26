@@ -3,10 +3,15 @@
 # access libraries through pipenv
 import pandas as pd
 import numpy as np
+import random
 
 FAVORITE_NUMS = [9, 14, 43]
 
-def df_cleaner(df):
-    """Cleans a df"""
-    # TO DO - implement function
-    pass
+def number_of_nulls(df):
+    """Checks a dataframe for nulls and returns number of nulls"""
+    return df.isnull().sum().sum()
+
+
+def add_list_to_df(list, df):
+    df['new col'] = pd.Series(list)
+    return df
