@@ -9,6 +9,7 @@ twine = "*"
 [packages]
 pandas = "*"
 numpy = "*"
+lambdata-n8mcdunna = {index = "https://test.pypi.org/simple/", version = "==0.0.1"}
 
 [requires]
 python_version = "3.8"
