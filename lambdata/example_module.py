@@ -5,6 +5,8 @@ import pandas as pd
 import numpy as np
 import random
 
+COLOR = ['red', 'green', 'blue', 'black']
+
 FAVORITE_NUMS = [9, 14, 43]
 
 def number_of_nulls(df):
@@ -19,3 +21,6 @@ def add_list_to_df(list, df):
 class MyDataFrame(pd.DataFrame):
     def num_nulls(self):
         return self.isnull().values.sum()
+
+def increment(x):
+    return x + 1

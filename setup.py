@@ -1,6 +1,6 @@
 import setuptools
 
-REQUIRED = ['numpy', 'pandas']
+REQUIRED = ['numpy', 'pandas', 'random']
 
 
 with open("README.md", "r") as fh:
