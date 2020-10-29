@@ -35,7 +35,7 @@ class SocialMediaUserTests(unittest.TestCase):
 
 class ExampleTest(unittest.TestCase):
     def test_increment(self):
-        """ Testing that increment function adds one """
+        """ Testing increment function adds one """
         x0 = 0
         y0 = increment(x0)
         self.assertEqual(y0, 1)
